@@ -1,0 +1,123 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Christian Rosado | Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    <!--FONTS LINKS / Space Grotesk-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!--FONTS LINKS / Inter-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="siteHeader">
+            <a href="index.html" class="logo">
+                <img src="img/White_Version_CR.webp" alt="Christian Rosado Logo">
+            </a>
+    
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section class="pageHero">
+                <p class="eyebrow">Contact</p>
+        
+                <h1>Let’s connect and build something professional.</h1>
+        
+                <p>
+                    I’m open to internships, junior web development roles, networking,
+                    and freelance web projects.
+                </p>
+            </section>
+        
+            <section class="contactLayout">
+                <div class="contactInfo">
+                    <div class="contactCard darkContactCard">
+                        <h2>Start a Conversation</h2>
+                        <p>
+                            Whether it’s a web development opportunity, internship,
+                            networking message, or freelance project, feel free to reach out.
+                        </p>
+                    </div>
+        
+                    <div class="contactCard">
+                        <h3>Email</h3>
+                        <p>crosado.dev@gmail.com</p>
+                        <a href="mailto:crosado.dev@gmail.com">Send Email</a>
+                    </div>
+        
+                    <div class="contactCard">
+                        <h3>LinkedIn</h3>
+                        <p>Christian Rosado</p>
+                        <a href="https://www.linkedin.com/in/christian-rosado-dev" target="_blank">View LinkedIn</a>
+                    </div>
+        
+                    <div class="contactCard">
+                        <h3>GitHub</h3>
+                        <p>Add your GitHub profile link here.</p>
+                        <a href="#" target="_blank">View GitHub</a>
+                    </div>
+                </div>
+        
+                <form 
+                class="contactForm"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+            >
+            
+                <!-- WEB3FORMS KEY -->
+                <input 
+                    type="hidden" 
+                    name="access_key" 
+                    value="22d9ca87-d30a-48a5-979c-f3b29da17ead"
+                >
+            
+                <p class="eyebrow">Message</p>
+                <h2>Send me a message.</h2>
+            
+                <label for="name">Name</label>
+                <input 
+                    type="text" 
+                    id="name" 
+                    name="name" 
+                    placeholder="Your name"
+                    required
+                >
+            
+                <label for="email">Email</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="your@email.com"
+                    required
+                >
+            
+                <label for="message">Message</label>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    placeholder="Tell me about the opportunity or project..."
+                    required
+                ></textarea>
+            
+                <button type="submit" class="btn primaryBtn">
+                    Send Message
+                </button>
+            
+            </form>
+            </section>
+        </main>
+    </body>
+</html>
