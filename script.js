@@ -1,7 +1,3 @@
-// ===============================
-// 01. NAVBAR SCROLL EFFECT
-// ===============================
-
 const header = document.querySelector(".siteHeader");
 
 window.addEventListener("scroll", () => {
@@ -11,11 +7,6 @@ window.addEventListener("scroll", () => {
         header.classList.remove("scrolled");
     }
 });
-
-
-// ===============================
-// 02. REVEAL ON SCROLL
-// ===============================
 
 const revealElements = document.querySelectorAll(
     ".hero, .projectShowcase, .workSection, .experienceSection, .skillsSection, .contactCTA, .pageHero, .projectsPageGrid, .resumeLayout, .contactLayout"
